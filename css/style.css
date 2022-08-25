@@ -82,7 +82,6 @@ h4 {
   }
   
   
-  
    .footer {
     background-color: black;
     text-align: center;
@@ -91,6 +90,12 @@ h4 {
     border: 3px solid blueviolet;
     border-radius: 10px;
     height: 200px;
+  }
+
+  .tituloFooter {
+    color: greenyellow;
+    font-size: 3vw;
+    text-shadow: 3px 3px blueviolet;
   }
 
   /******************** Estilos Cards ******************************/
@@ -148,7 +153,49 @@ h4 {
     background-color: white;
   }
 
-  /*INDEX*/
+  .cardContainer img:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 8px 8px gray;
+    width: 95%;
+    margin: auto;
+    padding: auto;
+  }
+ 
+  .cardContainer .btn:hover {
+    box-shadow: 5px 5px blueviolet;
+  }
+  
+
+/************** TABLET *******************/
+@media only screen and (max-width: 600px) {
+  .card-title {
+    font-size: 20px;
+  }
+
+}
+
+/***************** CELULAR *******************/
+@media only screen and (max-width: 320px) {
+  .card-title {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .btn {
+    font-size: 10px;
+    margin: 0;
+    top: 70%; 
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+}
+ 
+
+  /******************************** INDEX ************************************/
 
   .imgCar {
     height: 500px;
@@ -172,8 +219,10 @@ h4 {
     font-size: 15px;
     color: greenyellow;
   }
+
+ 
   
-  /*CONTACTO*/
+  /********************************** CONTACTO ********************************/
 
   .gridContact section {
     border-radius: 10px;
